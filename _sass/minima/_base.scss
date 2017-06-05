@@ -91,15 +91,15 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: #1de9b6;
+  color: #00e676;
   text-decoration: none;
 
-  &:visited {
-    color: darken(#1de9b6, 15%);
-  }
+  // &:visited {
+  //   color: darken(#00e676, 15%);
+  // }
 
   &:hover {
-    color: #1de9b6;
+    color: #00e676;
     text-decoration: underline;
   }
 
@@ -137,18 +137,18 @@ blockquote {
 pre,
 code {
   @include relative-font-size(0.9375);
-  border: 1px solid $grey-color-light;
   border-radius: 3px;
   background-color: #000;
 }
 
 code {
-  padding: 1px 5px;
+  padding: 2px 5px;
 }
 
 pre {
   padding: 8px 12px;
   overflow-x: auto;
+  border: 1px solid $grey-color-light;
 
   > code {
     border: 0;

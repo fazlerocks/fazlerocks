@@ -2,9 +2,10 @@
  * Site header
  */
 .site-header {
-  border-top: 5px solid #1de9b6;
+  // border-top: 5px solid #00e676;
   border-bottom: 1px solid rgba(255,255,255,.1);
   min-height: $spacing-unit * 1.865;
+  padding: 24px 0;
 
   // Positioning context for the mobile navigation icon
   position: relative;
@@ -17,6 +18,15 @@
   letter-spacing: -1px;
   margin-bottom: 0;
   float: left;
+
+  img{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    border: 2px solid #FFf;
+    margin-right: 16px;
+    display: inline-block;
+  }
 
   &,
   &:visited {
@@ -177,6 +187,7 @@
  */
 .page-content {
   padding: $spacing-unit 0;
+  min-height: calc(100vh - 468px);
 }
 
 .page-heading {
@@ -246,5 +257,9 @@
     @include media-query($on-laptop) {
       @include relative-font-size(1.125);
     }
+  }
+
+  p{
+    margin: 5vh 0;
   }
 }
