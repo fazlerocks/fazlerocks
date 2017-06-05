@@ -13,16 +13,14 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@domain.com
+title: CSS with Fazle
+email: fazle@hashnode.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Hey there, I am Fazle, CEO & Co-founder of Hashnode, a social network for software developers. I have been teaching on web since last 7 years and have publish a couple of books on CSS frameworks. This blog is all about CSS, JavaScript and other basic web development tips.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: fazlerocks
+github_username:  fazlerocks
 
 # Build settings
 markdown: kramdown
